@@ -1,0 +1,22 @@
+div.charts ul li {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+div.buttons button {
+  border: 1px solid black;
+  display: block;
+  background-color: gray;
+  color: white;
+  padding: 5px 25px;
+  cursor: pointer;
+  width: 15%;
+}
+
+div.buttons button:not(:last-child) {
+  border-bottom: none;
+}
+
+div.buttons button:hover {
+  background-color: brown;
+}
